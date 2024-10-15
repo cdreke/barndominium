@@ -12,13 +12,6 @@ const Brand = (props) => {
     >
       {/* <h4>SYDNEY</h4> */}
       <svg
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:cc="http://creativecommons.org/ns#"
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:svg="http://www.w3.org/2000/svg"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
         version="1.0"
         width="69.739998"
         height="42.68"
@@ -28,14 +21,6 @@ const Brand = (props) => {
         inkscape:output_extension="org.inkscape.output.svg.inkscape"
         id="svg2998"
       >
-        <metadata id="metadata3000">
-          <rdf:RDF>
-            <cc:Work rdf:about="">
-              <dc:format>image/svg+xml</dc:format>
-              <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-            </cc:Work>
-          </rdf:RDF>
-        </metadata>
         <defs id="defs3002" />
         <sodipodi:namedview
           pagecolor="#ffffff"
