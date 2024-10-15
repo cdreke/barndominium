@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Built for the big island of Hawaii';
+  const bannerMessage = 'Built for the Big Island of Hawaii';
   const searchSuggestions = [
     'barndominium kit',
     'metal building kit',

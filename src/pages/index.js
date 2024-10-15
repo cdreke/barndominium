@@ -32,7 +32,7 @@ const IndexPage = () => {
         maxWidth={'500px'}
         image={'/Barndo16.jpg'}
         title={'Real Steel Barndominium Kits'}
-        subtitle={'for the Big Island of Hawaii'}
+        subtitle={''}
         ctaText={'shop now'}
         ctaAction={goToShop}
       />
