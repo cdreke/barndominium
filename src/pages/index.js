@@ -21,8 +21,35 @@ const IndexPage = () => {
   const newArrivals = generateMockProductData(3, 'shirt');
   const blogData = generateMockBlogData(3);
 
-  const goToShop = () => {
-    navigate('/shop');
+  const whyUsData = [
+    {
+      title: 'We know steel buildings',
+      category: 'Expertise',
+      alt: '',
+      image: '/IMG_8572.jpg',
+      link: '',
+      excerpt: '',
+    },
+    {
+      title: 'We know the Big Island',
+      category: 'Local',
+      alt: '',
+      image: '/image2-1.jpeg',
+      link: '',
+      excerpt: '',
+    },
+    {
+      title: 'We are here to help',
+      category: 'success',
+      alt: '',
+      image: '/IMG_1352.jpg',
+      link: '/blog/sample',
+      excerpt: '',
+    },
+  ];
+
+  const goToDesigner = () => {
+    navigate('http://real-steel-llc.actbuildingsystems.com/');
   };
 
   return (
@@ -30,26 +57,56 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/Barndo16.jpg'}
-        title={'Real Steel Barndominium Kits'}
+        image={'/image1-2.jpeg'}
+        title={'Configure Your Barndominium Today!'}
         subtitle={''}
-        ctaText={'shop now'}
-        ctaAction={goToShop}
+        ctaText={'Configure Now'}
+        ctaAction={goToDesigner}
       />
+
+      {/* Blog Grid */}
+      <div className={styles.blogsContainer}>
+        <Container size={'large'}>
+          <Title
+            name={'How it works'}
+            subtitle={
+              'Build your Barndominium with one of our Real Steel Kits and utilize our decades of experience in precision metal building manufacturing and errection.'
+            }
+          />
+          <BlogPreviewGrid data={blogData} />
+        </Container>
+      </div>
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
-        </p>
-        <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          We have the experience and expertise to help you avoid mistakes and{' '}
+          <span className={styles.gold}>realize your dream</span> successfully.
         </p>
       </div>
+      {/* Quote */}
+      <Quote
+        bgColor={'var(--standard-gold)'}
+        title={'about Paul Lee Barndominiums'}
+        quote={
+          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+        }
+      />
 
-      {/* Collection Container */}
+      {/* Blog Grid */}
+      <div className={styles.blogsContainer}>
+        <Container size={'large'}>
+          <Title
+            name={'Why go with us?'}
+            subtitle={
+              'You have choices when it comes to building your Barndominium. Our decades of experience, our knowledge of the Big Island and our commitment to quality and your success set us apart.'
+            }
+          />
+          <BlogPreviewGrid data={whyUsData} />
+        </Container>
+      </div>
+      {/*
+
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
           <Title name={'New Collection'} />
@@ -57,7 +114,7 @@ const IndexPage = () => {
         </Container>
       </div>
 
-      {/* New Arrivals */}
+
       <div className={styles.newArrivalsContainer}>
         <Container>
           <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
@@ -71,7 +128,7 @@ const IndexPage = () => {
         </Container>
       </div>
 
-      {/* Highlight  */}
+  
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
@@ -87,7 +144,7 @@ const IndexPage = () => {
         </Container>
       </div>
 
-      {/* Promotion */}
+
       <div className={styles.promotionContainer}>
         <Hero
           image={toOptimizedImage('/banner2.png')}
@@ -99,24 +156,7 @@ const IndexPage = () => {
         </div>
       </div>
 
-      {/* Quote */}
-      <Quote
-        bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
-        quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
-        }
-      />
 
-      {/* Blog Grid */}
-      <div className={styles.blogsContainer}>
-        <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
-          <BlogPreviewGrid data={blogData} />
-        </Container>
-      </div>
-
-      {/* Promotion */}
       <div className={styles.sustainableContainer}>
         <Hero
           image={toOptimizedImage('/banner3.png')}
@@ -130,7 +170,7 @@ const IndexPage = () => {
         />
       </div>
 
-      {/* Social Media */}
+
       <div className={styles.socialContainer}>
         <Title
           name={'Styled by You'}
@@ -156,6 +196,15 @@ const IndexPage = () => {
         </div>
       </div>
       <AttributeGrid />
+      */}
+      <div className={styles.messageContainer}>
+        <p>
+          <Link className={styles.gold} to={'/support/#contact'}>
+            Contact Us
+          </Link>{' '}
+          today to start building your dream.
+        </p>
+      </div>
     </Layout>
   );
 };

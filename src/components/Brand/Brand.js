@@ -12,72 +12,47 @@ const Brand = (props) => {
     >
       {/* <h4>SYDNEY</h4> */}
       <svg
+        width="132.55798"
+        viewBox="400 200 200 150" // Adjusted viewBox, focusing into where the path seems to be centered
         version="1.0"
-        width="69.739998"
-        height="42.68"
-        sodipodi:version="0.32"
-        inkscape:version="0.48.2 r9819"
-        sodipodi:docname="hi.svg"
-        inkscape:output_extension="org.inkscape.output.svg.inkscape"
-        id="svg2998"
+        id="svg2"
       >
-        <defs id="defs3002" />
-        <sodipodi:namedview
-          pagecolor="#ffffff"
-          bordercolor="#666666"
-          borderopacity="1"
-          objecttolerance="10"
-          gridtolerance="10"
-          guidetolerance="10"
-          inkscape:pageopacity="0"
-          inkscape:pageshadow="2"
-          inkscape:window-width="1366"
-          inkscape:window-height="716"
-          fit-margin-top="0"
-          fit-margin-left="0"
-          fit-margin-right="0"
-          fit-margin-bottom="0"
-          inkscape:zoom="6.5356304"
-          inkscape:cx="81.231394"
-          inkscape:cy="29.444234"
-          inkscape:window-x="-8"
-          inkscape:window-y="-8"
-          inkscape:window-maximized="1"
-          inkscape:current-layer="svg2998"
-          id="namedview3004"
-          showgrid="false"
-        />
+        <defs id="defs4">
+          <marker
+            id="ArrowEnd"
+            viewBox="0 0 10 10"
+            refX="0"
+            refY="5"
+            markerUnits="strokeWidth"
+            markerWidth="4"
+            markerHeight="3"
+            orient="auto"
+          >
+            <path d="M 0,0 L 10,5 L 0,10 L 0,0 z" id="path7" />
+          </marker>
+          <marker
+            id="ArrowStart"
+            viewBox="0 0 10 10"
+            refX="10"
+            refY="5"
+            markerUnits="strokeWidth"
+            markerWidth="4"
+            markerHeight="3"
+            orient="auto"
+          >
+            <path d="M 10,0 L 0,5 L 10,10 L 10,0 z" id="path10" />
+          </marker>
+        </defs>
         <path
-          style="font-size:12px;fill:#d0d0d0;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
-          d="m 10.173552,1.5364262 1.317,0 0.567,0.377 0.186,0.564 0,0.378 -0.377,0.94 0,1.131 -0.753,0.752 -0.563,0.379 -1.883,-0.19 -0.754,-0.752 -1.13,-0.378 -0.377,-0.376 0,-0.566 0.566,-0.753 1.884,-1.506 1.317,0 m -8.852,6.028 -0.188,-0.191 0.188,-1.129 1.13,-0.754 0.189,-0.564 0.565,0 -0.188,1.318 -0.942,0.377 -0.565,0.943 -0.189,0"
-          id="Kauai"
-          inkscape:connector-curvature="0"
-        />
-        <path
-          style="font-size:12px;fill:#d0d0d0;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
-          d="m 32.587552,12.081427 -0.755,0.568 0,-0.189 -1.13,0.376 -0.942,-0.565 -1.883,0.189 -0.754,0.189 -0.376,-0.944 -0.566,-0.376 -0.187,-0.564 -0.566,-0.566 0,-0.5650001 -0.565,-0.375001 1.884,-0.3789997 0.942,-1.316 0.565,-0.378 0.564,0.187 0.942,1.695 0.188,0 0.188,0.3779997 -0.188,0.376001 0.188,0.5640001 0.754,0.567 0.188,-0.567 0.377,0 0,0.567 0.377,0.189 0.188,0.753 0.567,0.186"
-          id="Honolulu"
-          inkscape:connector-curvature="0"
-        />
-        <path
-          style="font-size:12px;fill:#d0d0d0;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
-          d="m 41.060552,13.589427 0.19,0 0.377,0.187 0.187,0 -0.187,-0.376 1.693,-0.376 0.754,0.189 -0.377,0.754 -1.13,0.752 -0.565,0 -2.258,-0.375 -2.637,0.187 -0.19,0 0.567,-1.507 0.188,0 2.637,0.189 0.565,0.187 0.186,0.189 m 4.52,1.318 0.565,0.189 0.942,1.507 1.883,-0.941 1.13,0.188 0,0.188 1.507,0.943 1.318,0.376 0.188,0.376 0,0.752 -0.753,0.754 -0.942,0.377 -1.883,0.755 -1.319,0 -0.377,-0.19 -0.376,-2.259 -0.564,-0.189 -0.377,0.375 -1.13,-0.564 -0.753,-0.754 -0.189,-0.752 0.377,-0.754 0.188,-0.377 0.565,0 m -4.895,1.696 1.317,0 0.754,0.565 0.376,0.565 -0.189,0.752 -1.693,0.567 -0.19,-0.754 -0.186,-0.565 -0.753,-0.752 0,-0.191 0.564,-0.187 m 5.649,3.768 0.188,0.187 0.188,0.753 -1.507,0.377 -0.564,-0.19 0.376,-0.562 1.319,-0.565"
-          id="Maui"
-          inkscape:connector-curvature="0"
-        />
-        <path
-          style="font-size:12px;fill:#d0d0d0;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
-          d="m 59.142552,40.710427 -0.376,0.377 -0.754,-0.565 -1.883,-0.753 -0.379,-0.566 -0.188,-0.376 0.188,-3.014 -1.318,-3.203 -0.754,-0.752 -0.565,-0.753 0.189,-0.567 1.13,-1.129 1.318,-1.694 0,-0.753 -0.941,-1.319 -0.189,-0.753 0.189,-0.755 0.376,-0.188 1.131,0.188 0.376,0.565 1.696,0.755 2.073,0.376 2.26,0.943 1.507,0.941 0.753,0.941 0.188,1.508 0.941,-0.189 0.377,0.563 0,0.755 0.942,0.753 1.318,0.564 -0.377,0.754 -2.071,1.883 -1.695,0.944 -1.507,0.188 -1.695,1.317 -0.941,0.564 -1.319,2.45"
-          id="Hawaii"
-          inkscape:connector-curvature="0"
-        />
-        <path
-          style="font-size:12px;fill:#d0d0d0;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none"
-          d="m 40.874552,13.400427 -0.565,-0.187 1.318,0.187 0.187,0.376 -0.187,0 -0.377,-0.187 -0.19,0 -0.186,-0.189"
-          id="Kalawao"
-          inkscape:connector-curvature="0"
+          id="path16"
+          d="M 428.40625 203.28125 L 424.5625 204.96875 L 423.125 211.1875 L 425.28125 220.3125 L 431.53125 228 L 431.03125 231.59375 L 430.8125 233.28125 L 424.8125 238.5625 L 421.9375 246.25 L 416.875 247.1875 L 410.40625 253.4375 L 408.25 259.9375 L 411.59375 265.1875 L 411.34375 267.59375 L 415.1875 269.03125 L 417.125 272.65625 L 419.53125 284.875 L 422.625 285.84375 L 421.6875 287.53125 L 426 299.28125 L 423.34375 321.125 L 424.3125 326.65625 L 427.4375 331.6875 L 436.5625 335.28125 L 443.53125 339.125 L 447.84375 344.15625 L 453.125 338.15625 L 455.03125 337.9375 L 459.59375 330 L 459.34375 326.65625 L 464.15625 320.65625 L 469.6875 319.1875 L 484.8125 306.96875 L 487.9375 306.25 L 494.875 307.6875 L 513.84375 299.03125 L 516 297.84375 L 530.625 284.65625 L 532.5625 279.59375 L 522.46875 274.5625 L 518.625 271.1875 L 518.40625 269.03125 L 515.03125 267.59375 L 515.03125 262.3125 L 512.875 258.25 L 512.40625 257.28125 L 504.25 258.25 L 504.46875 245.53125 L 491.75 233.28125 L 487.1875 230.65625 L 469.6875 221.28125 L 457.9375 217.4375 L 453.59375 218.15625 L 440.625 210 L 437.75 206.15625 L 428.40625 203.28125 z"
+          style={{ fill: '#9b9b9b', fillRule: 'evenodd', stroke: 'none' }}
         />
       </svg>
+      <h5>
+        Hawaii Real Steel Barndominiums
+        <div style={{ color: 'grey' }}>by Paul Lee</div>
+      </h5>
     </div>
   );
 };

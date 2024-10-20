@@ -12,10 +12,9 @@
     { "value": "mandarin", "label": "普通话" }
   ],
   "social": {
-    "facebook": "https://www.facebook.com/MatterDesign/",
-    "instagram": "https://www.instagram.com/p/CVwMlChIWmW",
-    "twitter": "https://twitter.com/hellomatter",
-    "youtube": "https://www.youtube.com/channel/UCEOu94Haa--QmltsSawflXg"
+    "facebook": "https://www.facebook.com/.../",
+    "instagram": "https://www.instagram.com/p/...",
+    "youtube": "https://www.youtube.com/channel/..."
   },
   "paymentOptions": {
     "visa": true,
@@ -29,14 +28,6 @@
         {
           "text": "About Us",
           "link": "/about"
-        },
-        {
-          "text": "Journal",
-          "link": "/blog"
-        },
-        {
-          "text": "Privacy Policy",
-          "link": "/support#policy"
         }
       ]
     },
@@ -44,28 +35,25 @@
       "subTitle": "Support",
       "links": [
         {
-          "text": "FAQ",
-          "link": "/faq"
-        },
-        {
           "text": "Contact Us",
           "link": "/support#contact"
         },
         {
-          "text": "Shipping & Returns",
-          "link": "/support#returns"
-        },
-        {
-          "text": "How to use this theme",
-          "link": "/how-to-use"
+          "text": "Tutorial",
+          "link": "/tutorials"
         }
       ]
     }
   ],
   "headerLinks": [
     {
-      "menuLabel": "Projects",
-      "menuLink": "/blog",
+      "menuLabel": "Home",
+      "menuLink": "/",
+      "category": null
+    },
+    {
+      "menuLabel": "Tutorials",
+      "menuLink": "/tutorials",
       "category": null
     },
     {

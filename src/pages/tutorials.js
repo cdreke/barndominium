@@ -7,7 +7,7 @@ import Layout from '../components/Layout/Layout';
 
 import * as styles from './about.module.css';
 import { toOptimizedImage } from '../helpers/general';
-const AboutPage = (props) => {
+const TutorialsPage = (props) => {
   let historyRef = useRef();
   let valuesRef = useRef();
   let sustainabilityRef = useRef();
@@ -37,4 +37,4 @@ const AboutPage = (props) => {
   );
 };
 
-export default AboutPage;
+export default TutorialsPage;
