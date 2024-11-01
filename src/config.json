@@ -11,7 +11,8 @@
     { "value": "german", "label": "Deutsch" },
     { "value": "mandarin", "label": "普通话" }
   ],
-  "social": {
+  "social": {},
+  "socialOrig": {
     "facebook": "https://www.facebook.com/.../",
     "instagram": "https://www.instagram.com/p/...",
     "youtube": "https://www.youtube.com/channel/..."

@@ -1,16 +1,16 @@
 [
   {
-    "title": "It all starts with your vision where you design your building",
-    "category": "Plan",
-    "alt": "",
-    "image": "/image0-1.jpeg",
+    "title": "It all starts with you realizing your vision using our online designer",
+    "category": "Design",
+    "alt": "80'x100' barndominium in Kapoho, HI",
+    "image": "/IMG_0001.png",
     "link": "",
     "excerpt": ""
   },
   {
     "title": "We manufacture your barndominium kit with high precision steel",
     "category": "manufacture",
-    "alt": "",
+    "alt": "40’x40’x18’ tall side walls barndominium in South Kona, HI",
     "image": "/image2-1.jpeg",
     "link": "",
     "excerpt": ""
@@ -18,9 +18,9 @@
   {
     "title": "You errect your barndominium with our guidance and start living your dream",
     "category": "errect",
-    "alt": "",
-    "image": "/IMG_1352.jpg",
-    "link": "/blog/sample",
+    "alt": "40’x100’ barndominium in Hawaiian Acres, HI",
+    "image": "/image0-1.jpeg",
+    "link": "/",
     "excerpt": ""
   },
   {
@@ -28,7 +28,7 @@
     "category": "design",
     "alt": "blog new standard of closing",
     "image": "/blogs/blog3.png",
-    "link": "/blog/sample",
+    "link": "/",
     "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
   },
   {
@@ -36,7 +36,7 @@
     "category": "design",
     "alt": "blog new standard of closing",
     "image": "/blogs/blog2.png",
-    "link": "/blog/sample",
+    "link": "/",
     "excerpt": "Loproducers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
   },
   {
@@ -44,7 +44,7 @@
     "category": "design",
     "alt": "blog new standard of closing",
     "image": "/blogs/blog1.png",
-    "link": "/blog/sample",
+    "link": "/",
     "excerpt": "London-based floral tish flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
   },
   {
@@ -52,7 +52,7 @@
     "category": "design",
     "alt": "blog new standard of closing",
     "image": "/blogs/blog2.png",
-    "link": "/blog/sample",
+    "link": "/",
     "excerpt": "London-based floral designer Flora Fricker champions seasonal British flowers and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
   },
   {
@@ -60,7 +60,7 @@
     "category": "design",
     "alt": "blog new standard of closing",
     "image": "/blogs/blog2.png",
-    "link": "/blog/sample",
+    "link": "/",
     "excerpt": "London-bs and UK producers in her beautiful and sustainable creations. This season, we worked with Flora to style Sunspel stores for Christmas, for which she produced eye-catching sustainably sourced wreaths."
   }
 ]

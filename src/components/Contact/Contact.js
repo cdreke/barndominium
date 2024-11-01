@@ -30,11 +30,14 @@ const Contact = (props) => {
       <div className={styles.section}>
         <h4>Start realizing your vision today!</h4>
       </div>
-
+      <div className={styles.section}>
+        <h4>Email</h4>
+        <p>sales@realsteelbuildings.net</p>
+      </div>
       <div className={styles.section}>
         <h4>Phone</h4>
         <p>808-896-2308</p>
-        <p>Monday to Friday - 9am - 5pm</p>
+        <p>Monday to Friday - 8am - 4pm</p>
       </div>
     </div>
   );

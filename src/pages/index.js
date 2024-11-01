@@ -25,25 +25,25 @@ const IndexPage = () => {
     {
       title: 'We know steel buildings',
       category: 'Expertise',
-      alt: '',
-      image: '/IMG_8572.jpg',
+      alt: "80'x100' barndominium in Kapoho, HI",
+      image: '/IMG_0009.png',
       link: '',
       excerpt: '',
     },
     {
       title: 'We know the Big Island',
       category: 'Local',
-      alt: '',
-      image: '/image2-1.jpeg',
+      alt: "30'x80' barndominium in Kapaho, HI",
+      image: '/IMG_0010.png',
       link: '',
       excerpt: '',
     },
     {
-      title: 'We are here to help',
+      title: 'We guide you towards success',
       category: 'success',
-      alt: '',
+      alt: '40’x100’ barndominium in Hawaiian Acres, HI',
       image: '/IMG_1352.jpg',
-      link: '/blog/sample',
+      link: '/',
       excerpt: '',
     },
   ];
@@ -56,10 +56,12 @@ const IndexPage = () => {
     <Layout disablePaddingBottom>
       {/* Hero Container */}
       <Hero
-        maxWidth={'500px'}
+        maxWidth={'700px'}
         image={'/image1-2.jpeg'}
-        title={'Configure Your Barndominium Today!'}
-        subtitle={''}
+        title={'Configure Your Barndominium for 2024'}
+        subtitle={
+          'Spacious, open floor plans without the need for interior load-bearing walls, offering flexible design options to accommodate various preferences and lifestyles.'
+        }
         ctaText={'Configure Now'}
         ctaAction={goToDesigner}
       />
@@ -70,13 +72,12 @@ const IndexPage = () => {
           <Title
             name={'How it works'}
             subtitle={
-              'Build your Barndominium with one of our Real Steel Kits and utilize our decades of experience in precision metal building manufacturing and errection.'
+              'Build your Barndominium with one of our Real Steel Kits and utilize our decades of experience in precision metal building manufacturing and errection. Steel structures are renowned for their resistance to extreme weather conditions, pests, and fire, ensuring a long-lasting and low-maintenance building.  The eco-friendly nature of steel, which is 100% recyclable, contributes to reduced environmental impact, making it an ideal choice for sustainable construction. Ultimately, combining the practicality of barndominiums with the robustness of steel creates a fusion of efficiency and strength, appealing to those seeking a cost-effective yet stylish solution for their living and recreational spaces.'
             }
           />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
-
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
@@ -92,7 +93,6 @@ const IndexPage = () => {
           '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
         }
       />
-
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>

@@ -34,21 +34,21 @@
   --standard-white: #ffffff;
   --standard-grey: #e2e2e2;
   --standard-dark-grey: #545250;
-  --standard-light-grey: #FCFAF6;
+  --standard-light-grey: #fcfaf6;
   --grey-passthough: #979797;
-  --grey-border: #A9A9A8;
+  --grey-border: #a9a9a8;
   --grey-placeholder: #716868;
-  --grey-crumb: #53524E;
-  --grey-disabled: #F2F2F2;
-  --grey-chip: #F1F1F1;
-  --grey-one: #D8D8D8;
-  --bg-grey: #F7F7F7;
+  --grey-crumb: #53524e;
+  --grey-disabled: #f2f2f2;
+  --grey-chip: #f1f1f1;
+  --grey-one: #d8d8d8;
+  --bg-grey: #f7f7f7;
   --bg-dark: #383634;
-  --bg-close-icon: #E9E7E3;
+  --bg-close-icon: #e9e7e3;
   --bg-light-gray: #e5e5e5;
-  --standard-gold: #B59F66;
-  --sale: #902F15;
-  --error: #9A3515;
+  --standard-gold: #b59f66;
+  --sale: #902f15;
+  --error: #9a3515;
 
   /* not sure if we are to maintain existing color palletes. better if we keep it lightweight? */
   /* --standard-grey-darker: #393939;
@@ -85,7 +85,8 @@
   --banner-background: #181818; */
 }
 
-html, body {
+html,
+body {
   box-sizing: border-box;
   margin: 0;
   font-family: var(--standard-font);
@@ -263,7 +264,7 @@ p {
 
 input:focus {
   outline: none !important;
-  outline-offset: none !important;  
+  outline-offset: none !important;
 }
 
 /* Font controls */

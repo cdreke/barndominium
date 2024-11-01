@@ -20,6 +20,8 @@ const BlogPreview = (props) => {
         src={toOptimizedImage(image)}
         role={'figure'}
       />
+      <span className={styles.altImage}>{altImage}</span>
+      <br />
       <span className={styles.category}>{category}</span>
       <h4 className={styles.title}>
         <Link to={link}>{title}</Link>
