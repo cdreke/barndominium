@@ -122,7 +122,7 @@ const Header = (prop) => {
           </div>
           <Brand />
           <div className={styles.actionContainers}>
-            <img src="/startingAt.png" width={160}></img>
+            <img src="/mcelroy/easyframefinal.jpg" width={160}></img>
           </div>
         </div>
 

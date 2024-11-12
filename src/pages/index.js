@@ -49,7 +49,9 @@ const IndexPage = () => {
   ];
 
   const goToDesigner = () => {
-    navigate('http://real-steel-llc.actbuildingsystems.com/');
+    navigate(
+      'https://urldefense.com/v3/__https:/actbuildingsystems.kayako.com/article/1027-set-up-your-online-3d-designer__;!!NW880qfKSBjB!qZaWq01jy9lpkfmO50TBy3qKsCUSPXahzIs1hDc4-4gaVIpXYVhWXJLvtELY5eWQilY5aVHTQ9rBVYI0tNVg8qtAtOqXeg$',
+    );
   };
 
   return (
