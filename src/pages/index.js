@@ -49,7 +49,7 @@ const IndexPage = () => {
   ];
 
   const goToDesigner = () => {
-    navigate('https://steelbuildinghawaii.actbuildingsystems.com/');
+    navigate('https://steelbuildinghawaii2.actbuildingsystems.com/');
   };
 
   return (
